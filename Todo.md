@@ -1,48 +1,3 @@
-[➡️ www.webstack.cc](https://webstack.cc) - 网址导航
-===
-QQ群交流：304584722
-
-本项目这是一个**纯静态**的网址导航网站，内容均由[viggo](http://viggoz.com)收集并整理。项目基于bootstrap前端框架开发。
-
-![](http://www.webstack.cc/assets/images/preview.gif)
-
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。如果你有任何疑问，可以通过个人网站[viggoz.com](http://viggoz.com)中的联系方式找到我，欢迎与我交流分享。
-
-怎么用?
----
-你可以像我一样直接使用静态托管形式，如果你需要一个后台系统方便管理，可以参考下面的第二第三种解决方案：
-#### 1. 使用静态托管
-最简单快速上线自己的导航网站，你可以直接**下载**本项目修改内容既可部署上线。
-
-#### 2. 使用基于Typecho的主题后台🔥
-[https://www.seogo.me/muban/webstack.html](https://www.seogo.me/muban/webstack.html)
-
-#### 3. 使用基于 Docker 搭建的后台系统🔥
-https://github.com/hui-ho/WebStack-Laravel
-
-https://hub.docker.com/r/arvon2014/webstack-laravel
-
-#### 4. 自己写后台系统
-可以按照自己的喜好和框架搭建后台系统，也可以参考我设计好的后台框架自行搭建。本站设计开发过程在我的博客文章有详细讲到[《webstack \| viggo》](http://blog.viggoz.com/2018/01/03/2018-01-03-webstack/)。静态源码（半成品）：[https://github.com/WebStackPage/webstack-Admin](https://github.com/WebStackPage/webstack-Admin)
-
-如果你有更好的解决方案，并且能够开源供大家使用，可以在本项目提Issus，或者直接通过我个人网站中的联系方式联系我。
-
-JUST DOWNLOAD AND DO WHAT THE FUCK YOU WANT TO.
-
-
-
-关于图片资源
----
-```/assets/images/logos/default.png``` 这是网站标签的默认图标
-
-```/assets/images/logos``` 这里是所有网站内的图标切图，尺寸均为120px*120px
-
-```/assets/webstack_logos.sketch``` 这是网站标签收录的所有图标设计源文件，你可以在这里[下载](https://WebStackPage.github.io/assets/webstack_logos.sketch) 。打开前请确认Sketch版本高于50.2(55047)
-
-优秀项目示例
----
-本项目开源已经有一年多，陆续有很多小伙伴使用这个主题制作了自己的导航网站，下面列出了一些我知道的基于webstack或者使用webstack主题开发的项目，都是做的比较好的一些小伙伴，供大家借鉴。也欢迎各位开发者把自己的项目加进来~ 发 Pull Request 或 Issue 即可 
-（入选标准：必须是webstack项目相关的网站）
 
 | 状态 | 网站名 | 网址 |
 | --- | --- | --- |
@@ -61,34 +16,24 @@ JUST DOWNLOAD AND DO WHAT THE FUCK YOU WANT TO.
 | ✅已上线 | DreamThere - 梦想导航 | [https://nav.dreamthere.com/](https://nav.dreamthere.com/) |
 | ✅已上线 | 聚BT \- 聚合最优质的BT、磁力资源 | [聚BT \- 聚合最优质的BT、磁力资源](https://www.jubt.net/cn/index.html) |
 | ✅已上线 | 推荐短视频 - 网红短视频导航 | [https://wx.dreamthere.com/](https://wx.dreamthere.com/) |
-| ✅已上线 | 狼牌工作网址导航 | [https://www.volf.club/](https://www.volf.club/) |
-| ✅已上线 | JKnear导航 - 建筑结构设计导航 | [http://jk.jknear.com:777/](http://jk.jknear.com:777/) |
-| ✅已上线 | site navigation – QAOZEN | [https://qaozen.com/nav/](https://qaozen.com/nav/) |
-| ✅已上线 | 京东运营网址导航 | [http://miyue1980.com/](http://miyue1980.com/) |
-| ✅已上线 | 快导航 - 简单的网址导航大全 | [https://wukandy.cn/](https://wukandy.cn/) |
-| ✅已上线 | ShareHub - 资源和工具的集合 | [https://www.gezhipu.com/cn/index.html](https://www.gezhipu.com/cn/index.html) |
-| ✅已上线 | 喵帕斯 - 喵帕斯导航页 | [http://naspro.cc/](http://naspro.cc/) |
-| ✅已上线 | 我的收藏夹 - 个人网址导航站 | [https://www.kukiliao.com/](https://www.kukiliao.com/) |
-| ✅已上线 | tool - wxuegao | [http://tool.wxuegao.com/](http://tool.wxuegao.com/) |
-| ✅已上线 | vv.lc - 网址导航 | [http://vv.lc/](http://vv.lc/) |
-| ✅已上线 | 程序员网址导航 - hujiangtao | [https://web.hujiangtao.cn/](https://web.hujiangtao.cn/) |
-| ✅已上线 | 酸奶 - 广告运营从业者类别导航 | [酸奶 \- 专注广告运营从业者类别导航](http://about.edu233.cn/) |
-| ✅已上线 | 浮生论坛 \- 念念不忘，必有回响 | [浮生论坛 \- 念念不忘，必有回响](https://fusfun.club/cn/index.html) |
-| ✅已上线 |Pandaroll\.cn 网址导航 | [Pandaroll\.cn 网址导航](http://pandaroll.cn/cn/index.html) |
-| 🕗开发中 | QAdoc - 测试工作者导航 | [http://nav.qadoc.org/cn/index.html](http://nav.qadoc.org/cn/index.html) |
-| 🕗开发中 | t.hiihi | [http://t.hiihi.cn/](http://t.hiihi.cn/) |
-| 🕗开发中 | zou0 | [http://www.zou0.com/cn/index.html](http://www.zou0.com/cn/index.html) |
-| 🕗开发中 | Matrix Navigation | [Matrix Navigation \-](https://navi.sh-oo.com/) |
-| 🕗开发中 | PMGEEK | [http://pmgeek.net/](http://pmgeek.net/) |
-| 🕗开发中 | lerso.cn | [http://lerso.cn/](http://lerso.cn/) |
-| 🕗开发中 | dh.wdj.pw | [WebStack\.cc \- 设计师网址导航](https://dh.wdj.pw/cn/index.html) |
-| 🕗开发中 | wukandy.cn | [https://wukandy.cn/](https://wukandy.cn/) |
-| ❌已下线 | 奇客数码导航 - 专注IT自媒体导航网站 | [https://nav.qikepai.cn/](https://nav.qikepai.cn/) |
-| ❌已下线 | 7299导航 | [https://www.mmbbao.com/](https://www.mmbbao.com/) |
-| ❌已下线 | 东莞理工学习导航 | [http://gd.dgut.top/cn/index2.html](http://gd.dgut.top/cn/index2.html) |
-| ❌已下线 | Dapp公园 | [http://xdapp.pw/](http://xdapp.pw/) |
-| ❌已下线 | zero-null | [https://zero-null.github.io/works/cn/index.html](https://zero-null.github.io/works/cn/index.html) |
-| ❌已下线 | alabom.top | [http://alabom.top/cn/index.html](http://alabom.top/cn/index.html) |
+| 资源 | (https://www.volf.club/) |
+| 资源：建筑| (http://jk.jknear.com:777/) |
+| 分类 | (https://qaozen.com/nav/) |
+| 资源： 运营 | (http://miyue1980.com/) |
+| 资源： 搜索| (https://wukandy.cn/) |
+| 资源| (https://www.gezhipu.com/cn/index.html) |
+| 资源|  (http://naspro.cc/) |
+| 资源| (http://tool.wxuegao.com/) |
+| 资源 | (http://vv.lc/) |
+|  资源：区块链 | https://www.block123.com/zh-hans/ |
+| 资源: 优秀博客 | [https://web.hujiangtao.cn/](https://web.hujiangtao.cn/) |
+| 资源：在线工具 |   (http://about.edu233.cn/) |
+| 资源 |(http://pandaroll.cn/cn/index.html) |
+| 资源： 测试 |(http://nav.qadoc.org/cn/index.html) |
+| 资源 | t.hiihi | [http://t.hiihi.cn/](http://t.hiihi.cn/) |
+| 搜索 | Matrix Navigation | [Matrix Navigation \-](https://navi.sh-oo.com/) |
+| 样式 | wukandy.cn | [https://wukandy.cn/](https://wukandy.cn/) |
+ 
 ## License
 
 Copyright © 2017-2018 **[webstack.cc](https://webstack.cc)** Released under the **MIT License**.
