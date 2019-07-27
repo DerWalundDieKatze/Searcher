@@ -1,0 +1,11 @@
+language: python
+sudo: enable
+services:
+    - mysql
+python:
+    - "3.5"
+before_install:
+    - mysql -e 'CREATE DATABASE myapp_test;'
+
+script:
+    - flask run
