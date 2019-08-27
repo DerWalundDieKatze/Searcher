@@ -1,0 +1,11 @@
+webs({
+    "new": [
+        {
+            "name": "数据科学社区",
+            "url": "http://sofasofa.io/",
+			"img": "../assets/images/logos/data.png",
+			"doc": "关于数据科学的社区"
+        }
+    ]
+})
+// new ： 最近更新
