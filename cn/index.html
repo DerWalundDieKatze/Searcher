@@ -2,24 +2,14 @@
 <html lang="zh">
 
 <head>
-    <!-- Google广告 -->
-    <!-- <script async src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" >
-    </script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8550836177608334",
-        enable_page_level_ads: true
-    });
-    </script> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="viggo" />
-    <title>Lisiyi.top - 搜藏家</title>
+    <title>Searcher - 搜藏家</title>
     <meta name="keywords" content="网站开发、程序员、开发工具、资源搜索、区块链、信息聚合、优质网站、专业工具分类">
     <meta name="description" content="Searcher -  汇聚优质网站，筛选高效工具，高质量的信息导航网站。 lisiyi.top">
     <link rel="shortcut icon" href="../assets/images/favicon.png">
-    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic"> -->
     <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -46,9 +36,15 @@
      <meta name="twitter:title" content="Searcher -  汇聚优质网站，筛选高效工具，高质量的信息导航网站。 lisiyi.top">
      <meta name="twitter:description" content="网站开发、程序员、开发工具、资源搜索、区块链、信息聚合、优质网站、专业工具分类">
      <meta name="twitter:image" content="http://lisiyi.top/assets/images/webstack_banner_cn.png">
-</head>
+    <style>
+    h4 {
+        font-weight: bold !important;
+        color: black;
+    }
+    </style>
+    </head>
 
-<body class="page-body">
+<body class="page-body" style="background:rgba(26, 77, 51, 0.16); font-weight: bold; ">
     <!-- skin-white -->
     <div class="page-container">
         <div class="sidebar-menu toggle-others fixed">
@@ -57,20 +53,26 @@
                     <!-- logo -->
                     <div class="logo">
                         <a href="index.html" class="logo-expanded">
-                            <img src="../assets/images/logo.png" width="100%" alt="" />
+                            <img src="../assets/images/logo.png" width="180px"   alt="" />
                         </a>
                         <a href="index.html" class="logo-collapsed">
-                            <img src="../assets/images/favicon.png" width="40" alt="" />
+                            <img src="../assets/images/favicon.png" width="40px" alt="" />
                         </a>
+                        
                     </div>
-                    <div class="mobile-menu-toggle visible-xs">
-                        <a href="#" data-toggle="user-info-menu">
-                            <i class="linecons-cog"></i>
-                        </a>
-                        <a href="#" data-toggle="mobile-menu">
-                            <i class="fa-bars"></i>
-                        </a>
-                    </div>
+                  
+                    <div class="mobile-menu-toggle visible-xs" style="height: 50px; position: relative;">
+                         <div style="line-height: 3;">
+                                <a href="#" data-toggle="user-info-menu">
+                                        <i class="linecons-cog"></i>
+                                    </a>
+                                    <a href="#" data-toggle="mobile-menu">
+                                        <i class="fa-bars"></i>
+                                    </a>  
+                         </div>
+                        
+                        </div>
+                     
                 </header>
                 <ul id="main-menu" class="main-menu">
                     <li>
@@ -103,6 +105,12 @@
                                     </a>
                                 </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="#实践学习" class="smooth">
+                            <i class="linecons-user"></i>
+                            <span class="title">实践学习</span>
+                        </a>
                     </li>
                     <li>
                         <a>
@@ -168,11 +176,7 @@
                                     <span class="title">在线教程</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#实践学习" class="smooth">
-                                    <span class="title">实践学习</span>
-                                </a>
-                            </li>
+                         
                             <li>
                                 <a href="#博客文章" class="smooth">
                                     <span class="title">博客文章</span>
@@ -181,17 +185,12 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#Wiki" class="smooth">
-                            <i class="linecons-user"></i>
-                            <span class="title">Wiki</span>
-                        </a>
-                    </li>
+                  
                     <div class="submit-tag">
                         <a href="about.html">
                             <i class="linecons-heart"></i>
                             <span class="tooltip-blue">关于本站</span>
-                            <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
+                            <span class="label label-Primary pull-right hidden-collapsed"> ♥︎</span>
                         </a>
                     </div>
                 </ul>
@@ -201,31 +200,14 @@
             <nav class="navbar user-info-navbar" role="navigation">
                 <!-- User Info, Notifications and Menu Bar -->
                 <!-- Left links for user info navbar -->
-                <ul class="user-info-menu left-links list-inline list-unstyled">
-                    <li class="hidden-sm hidden-xs">
+                <ul class="user-info-menu left-links list-inline list-unstyled" >
+                    <li class="hidden-sm hidden-xs" style="top:0;bottom:0;margin: auto;" >
                         <a href="#" data-toggle="sidebar">
                             <i class="fa-bars"></i>
                         </a>
                     </li>
                     <li class="dropdown hover-line language-switcher">
-                        <a href="../cn/index.html" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
-                        </a>
-                        <ul class="dropdown-menu languages">
-                            <li>
-                                <a href="../en/index.html">
-                                    <img src="../assets/images/flags/flag-us.png" alt="flag-us" /> English
-                                </a>
-                            </li>
-                            <li class="active">
-                                <a href="../cn/index.html">
-                                    <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown hover-line language-switcher">
-                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown">累计收录网站 <span style="color: red">5</span> 个</a>
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown">累计收录网站 <span style="color: red">16</span> 个</a>
                     </li>
                 </ul>
             </nav>
@@ -275,16 +257,7 @@
                                 <input hidden="" type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索"><label for="type-google1"><span style="color:#3B83FA">G</span><span style="color:#F3442C">o</span><span style="color:#FFC300">o</span><span style="color:#4696F8">g</span><span style="color:#2CAB4E">l</span><span style="color:#F54231">e</span></label>
                             </li>
                             <li>
-                                <input hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360好搜"><label for="type-360"><span style="color:#19b955">360</span></label>
-                            </li>
-                            <li>
-                                <input hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索"><label for="type-sogo"><span style="color:#ff5943">搜狗</span></label>
-                            </li>
-                            <li>
                                 <input hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="微软Bing搜索"><label for="type-bing"><span style="color:#007daa">Bing</span></label>
-                            </li>
-                            <li>
-                                <input hidden="" type="radio" name="type" id="type-sm" value="https://yz.m.sm.cn/s?q=" data-placeholder="UC移动端搜索"><label for="type-sm"><span style="color:#ff8608">神马</span></label>
                             </li>
                         </ul>
                     </div>
@@ -295,19 +268,7 @@
                                 <input hidden="" type="radio" name="type" id="type-br" value="http://rank.chinaz.com/all/" data-placeholder="请输入网址(不带http://)"><label for="type-br"><span style="color:#55a300">权重查询</span></label>
                             </li>
                             <li>
-                                <input hidden="" type="radio" name="type" id="type-links" value="http://link.chinaz.com/" data-placeholder="请输入网址(不带http://)"><label for="type-links"><span style="color:#313439">友链检测</span></label>
-                            </li>
-                            <li>
-                                <input hidden="" type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/" data-placeholder="请输入网址(不带http://)"><label for="type-icp"><span style="color:#ffac00">备案查询</span></label>
-                            </li>
-                            <li>
                                 <input hidden="" type="radio" name="type" id="type-ping" value="http://ping.chinaz.com/" data-placeholder="请输入网址(不带http://)"><label for="type-ping"><span style="color:#00599e">PING检测</span></label>
-                            </li>
-                            <li>
-                                <input hidden="" type="radio" name="type" id="type-404" value="http://tool.chinaz.com/Links/?DAddress=" data-placeholder="请输入网址(不带http://)"><label for="type-404"><span style="color:#f00">死链检测</span></label>
-                            </li>
-                            <li>
-                                <input hidden="" type="radio" name="type" id="type-ciku" value="http://www.ciku5.com/s?wd=" data-placeholder="请输入关键词"><label for="type-ciku"><span style="color:#016DBD">关键词挖掘</span></label>
                             </li>
                         </ul>
                     </div>
@@ -316,9 +277,6 @@
                         <ul class="search-type">
                             <li>
                                 <input hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&amp;q=" data-placeholder="知乎"><label for="type-zhihu"><span style="color:#0084ff">知乎</span></label>
-                            </li>
-                            <li>
-                                <input hidden="" type="radio" name="type" id="type-wechat" value="http://weixin.sogou.com/weixin?type=2&amp;query=" data-placeholder="微信"><label for="type-wechat"><span style="color:#00a06a">微信</span></label>
                             </li>
                             <li>
                                 <input hidden="" type="radio" name="type" id="type-weibo" value="http://s.weibo.com/weibo/" data-placeholder="微博"><label for="type-weibo"><span style="color:#e6162d">微博</span></label>
@@ -386,6 +344,27 @@
             <script type="text/javascript">var __encode ='seogo.me',_0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]=_0xb483[1]})(window);var __Ox1467e=["\x63\x68\x65\x63\x6B\x65\x64","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x74\x79\x70\x65\x22\x5D\x5B\x76\x61\x6C\x75\x65\x3D\x22","\x22\x5D","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x6C\x65\x6E\x67\x74\x68","\x73\x2D\x63\x75\x72\x72\x65\x6E\x74","\x72\x65\x6D\x6F\x76\x65","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x61\x64\x64","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65","\x73\x75\x70\x65\x72\x53\x65\x61\x72\x63\x68","\x73\x65\x74\x49\x74\x65\x6D","\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65","\x67\x65\x74\x49\x74\x65\x6D","\x74\x61\x72\x67\x65\x74","\x76\x61\x6C\x75\x65","\x74\x79\x70\x65","\x66\x6F\x63\x75\x73","\x6E\x65\x77\x57\x69\x6E\x64\x6F\x77","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","","\x61\x63\x74\x69\x6F\x6E","\x6F\x70\x65\x6E","\x68\x72\x65\x66","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x74\x79\x70\x65\x22\x5D\x3A\x63\x68\x65\x63\x6B\x65\x64","\x64\x61\x74\x61\x2D\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x5F\x62\x6C\x61\x6E\x6B","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x74\x79\x70\x65\x22\x5D","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x23\x73\x75\x70\x65\x72\x2D\x73\x65\x61\x72\x63\x68\x2D\x66\x6D","\x23\x73\x65\x61\x72\x63\x68\x2D\x74\x65\x78\x74","\x23\x73\x65\x74\x2D\x73\x65\x61\x72\x63\x68\x2D\x62\x6C\x61\x6E\x6B","\x2E\x73\x65\x61\x72\x63\x68\x2D\x67\x72\x6F\x75\x70","\x63\x68\x61\x6E\x67\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x73\x75\x62\x6D\x69\x74"];!function(){function _0x3bccx1(){_0x3bccx2(),_0x3bccx3(),_0x3bccx5(),_0x3bccx6()}function _0x3bccx2(){_0x3bccx17[__Ox1467e[0]]=_0x3bccxf()}function _0x3bccx3(){var _0x3bccx4=document[__Ox1467e[3]](__Ox1467e[1]+ _0x3bccxc()+ __Ox1467e[2]);_0x3bccx4&&(_0x3bccx4[__Ox1467e[0]]=!0,_0x3bccx7(_0x3bccx4))}function _0x3bccx5(){_0x3bccx12(_0x3bccx11())}function _0x3bccx6(){_0x3bccx13(_0x3bccx10())}function _0x3bccx7(_0x3bccx4){for(var _0x3bccx8=0;_0x3bccx8< _0x3bccx18[__Ox1467e[4]];_0x3bccx8++){_0x3bccx18[_0x3bccx8][__Ox1467e[7]][__Ox1467e[6]](__Ox1467e[5])};_0x3bccx4[__Ox1467e[9]][__Ox1467e[9]][__Ox1467e[9]][__Ox1467e[7]][__Ox1467e[8]](__Ox1467e[5])}function _0x3bccx9(_0x3bccx4,_0x3bccx8){window[__Ox1467e[12]][__Ox1467e[11]](__Ox1467e[10]+ _0x3bccx4,_0x3bccx8)}function _0x3bccxa(_0x3bccx4){return window[__Ox1467e[12]][__Ox1467e[13]](__Ox1467e[10]+ _0x3bccx4)}function _0x3bccxb(_0x3bccx4){_0x3bccx19=_0x3bccx4[__Ox1467e[14]],_0x3bccx12(_0x3bccx11()),_0x3bccx13(_0x3bccx4[__Ox1467e[14]][__Ox1467e[15]]),_0x3bccx9(__Ox1467e[16],_0x3bccx4[__Ox1467e[14]][__Ox1467e[15]]),_0x3bccx16[__Ox1467e[17]](),_0x3bccx7(_0x3bccx4[__Ox1467e[14]])}function _0x3bccxc(){var _0x3bccx8=_0x3bccxa(__Ox1467e[16]);return _0x3bccx8||_0x3bccx4[0][__Ox1467e[15]]}function _0x3bccxd(_0x3bccx4){_0x3bccx9(__Ox1467e[18],_0x3bccx4[__Ox1467e[14]][__Ox1467e[0]]?1:-1),_0x3bccx14(_0x3bccx4[__Ox1467e[14]][__Ox1467e[0]])}function _0x3bccxe(_0x3bccx4){return _0x3bccx4[__Ox1467e[19]](),__Ox1467e[20]==_0x3bccx16[__Ox1467e[15]]?(_0x3bccx16[__Ox1467e[17]](),!1):(_0x3bccx13(_0x3bccx10()+ _0x3bccx16[__Ox1467e[15]]),_0x3bccx14(_0x3bccxf()),_0x3bccxf()?window[__Ox1467e[22]](_0x3bccx8[__Ox1467e[21]],+ new Date):location[__Ox1467e[23]]=_0x3bccx8[__Ox1467e[21]],void(0))}function _0x3bccxf(){var _0x3bccx4=_0x3bccxa(__Ox1467e[18]);return _0x3bccx4?1==_0x3bccx4:!0}function _0x3bccx10(){return document[__Ox1467e[3]](__Ox1467e[24])[__Ox1467e[15]]}function _0x3bccx11(){return document[__Ox1467e[3]](__Ox1467e[24])[__Ox1467e[26]](__Ox1467e[25])}function _0x3bccx12(_0x3bccx4){_0x3bccx16[__Ox1467e[28]](__Ox1467e[27],_0x3bccx4)}function _0x3bccx13(_0x3bccx4){_0x3bccx8[__Ox1467e[21]]=_0x3bccx4}function _0x3bccx14(_0x3bccx4){_0x3bccx4?_0x3bccx8[__Ox1467e[14]]=__Ox1467e[29]:_0x3bccx8[__Ox1467e[30]](__Ox1467e[14])}var _0x3bccx15,_0x3bccx4=document[__Ox1467e[32]](__Ox1467e[31]),_0x3bccx8=document[__Ox1467e[3]](__Ox1467e[33]),_0x3bccx16=document[__Ox1467e[3]](__Ox1467e[34]),_0x3bccx17=document[__Ox1467e[3]](__Ox1467e[35]),_0x3bccx18=document[__Ox1467e[32]](__Ox1467e[36]),_0x3bccx19=_0x3bccx4[0];for(_0x3bccx1(),_0x3bccx15=0;_0x3bccx15< _0x3bccx4[__Ox1467e[4]];_0x3bccx15++){_0x3bccx4[_0x3bccx15][__Ox1467e[38]](__Ox1467e[37],_0x3bccxb)};_0x3bccx17[__Ox1467e[38]](__Ox1467e[37],_0x3bccxd),_0x3bccx8[__Ox1467e[38]](__Ox1467e[39],_0x3bccxe)}()
             </script>
 
+
+            <!-- 最近更新 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px; color:blue;" id="最近更新"></i>最近更新</h4>
+            <div class="row">
+                    <div class="col-sm-3">
+                            <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tophub.today/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://tophub.today/">
+                                <div class="xe-comment-entry">
+                                    <a class="xe-user-img">
+                                        <img src="../assets/images/logos/tops.png" class="img-circle" width="40">
+                                    </a>
+                                    <div class="xe-comment">
+                                        <a href="#" class="xe-user-name overflowClip_1">
+                                            <strong>今日热榜</strong>
+                                        </a>
+                                        <p class="overflowClip_2">汇集各种资讯网站的榜单内容</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <br />
             <!-- 个人常用 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px; color:red;" id="私人定制"></i>私人定制</h4>
             <!-- 行 -->
@@ -394,7 +373,7 @@
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://aturx.github.io/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://aturx.github.io/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/dribbble.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/aturx.jpg" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -409,7 +388,7 @@
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://llssyy.wordpress.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://llssyy.wordpress.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/behance.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/website.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -424,7 +403,7 @@
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/aturX/lsy', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/aturX/lsy">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/uicn.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/growth.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -467,27 +446,127 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/aturX/100DD100', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/aturX/100DD100">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/code.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>Day-Code</strong>
+                                    </a>
+                                    <p class="overflowClip_2">每日Code，乐趣而已。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.block233.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.block233.com/">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/tokenlife.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>TokenLife</strong>
+                                    </a>
+                                    <p class="overflowClip_2">常逛的论坛</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bwh8.net/clientarea.php', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bwh8.net/clientarea.php">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/skitterphoto.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>VPS 搬瓦工</strong>
+                                    </a>
+                                    <p class="overflowClip_2">搬瓦工操作面板VPS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <br />
             <!-- END 个人常用 -->
-            <!-- 资源搜索 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="资源搜索"></i>资源搜索</h4>
+
+            <!-- 实践学习 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="实践学习"></i>实践学习</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.leiphone.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.leiphone.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://leetcode-cn.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://leetcode-cn.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/leiphone.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/leetcode.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>雷锋网</strong>
+                                    <strong>LeetCode</strong>
                                 </a>
-                                <p class="overflowClip_2">人工智能和智能硬件领域的互联网科技媒体</p>
+                                <p class="overflowClip_2">算法编程网站</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <br />
+            <!--END 实践学习 -->
+ 
+
+
+            <!-- 资源搜索 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="资源搜索"></i>资源搜索</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.jiumodiary.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.jiumodiary.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="../assets/images/logos/j.png" class="img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>鸠摩搜书</strong>
+                                </a>
+                                <p class="overflowClip_2">搜书的搜索引擎</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.easyicon.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.easyicon.net/">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/ico.gif" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>EasyIcon</strong>
+                                    </a>
+                                    <p class="overflowClip_2">包含大量的精美图标，都是免费的</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://chuangzaoshi.com/index', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://chuangzaoshi.com/index">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/czs.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>创造狮导航</strong>
+                                    </a>
+                                    <p class="overflowClip_2">丰富高质量的网站导航</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             
             <br />
@@ -566,20 +645,65 @@
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="后端程序员"></i>后端程序员</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.w3cschool.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.w3cschool.cn">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/w3c.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>W3Cschool</strong>
+                                    </a>
+                                    <p class="overflowClip_2">各种技术的API文档教程学习</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://springboot.fun/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://springboot.fun/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/springboot.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
+                                    <strong>SpringBoot中文索引</strong>
                                 </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
+                                <p class="overflowClip_2">汇集多个Springboot的索引网站</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://hellogithub.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://hellogithub.com/">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/hellogithub.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>HelloGitHub</strong>
+                                    </a>
+                                    <p class="overflowClip_2">收集一些Github上有趣的项目</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://morvanzhou.github.io/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://morvanzhou.github.io/">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/pythonmofan.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>莫烦Python</strong>
+                                    </a>
+                                    <p class="overflowClip_2">Python基础、机器学习、数据处理相关教程</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <br />
             <!--END 后端程序员 -->
@@ -588,16 +712,31 @@
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="前端程序员"></i>前端程序员</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://jquery.cuishifeng.cn/index.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://jquery.cuishifeng.cn/index.html">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/jquery.jpg" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
+                                    <strong>jQuery API 文档</strong>
                                 </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
+                                <p class="overflowClip_2">CSS jQuery API相关文档在线查看</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://zh.learnlayout.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://zh.learnlayout.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="../assets/images/logos/css.png" class="img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>CSS布局学习</strong>
+                                </a>
+                                <p class="overflowClip_2">CSS核心的布局方式学习</p>
                             </div>
                         </div>
                     </div>
@@ -611,16 +750,16 @@
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="测试工程师"></i>测试工程师</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.testclass.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.testclass.net/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/testclass.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
+                                    <strong>测试教程网</strong>
                                 </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
+                                <p class="overflowClip_2"> 较方便的测试网站 </p>
                             </div>
                         </div>
                     </div>
@@ -656,16 +795,16 @@
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="区块链工程师"></i>区块链工程师</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.block123.com/zh-hans/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.block123.com/zh-hans/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/blockchain.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
+                                    <strong>区块链门户</strong>
                                 </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
+                                <p class="overflowClip_2">国内最大的区块链门户网站</p>
                             </div>
                         </div>
                     </div>
@@ -679,16 +818,16 @@
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="自由职业者"></i>自由职业者</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.topworker.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.topworker.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/topworker.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
+                                    <strong>跨境从业者</strong>
                                 </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
+                                <p class="overflowClip_2">包含有自由职业相关的众多网站及文章</p>
                             </div>
                         </div>
                     </div>
@@ -764,88 +903,69 @@
              <br />
              <!--END 在线教程 -->
  
-            <!-- 实践学习 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="实践学习"></i>实践学习</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
-                                </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 实践学习 -->
+
 
 
             <!-- 博客文章 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="博客文章"></i>博客文章</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://coolshell.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://coolshell.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
+                                <img src="../assets/images/logos/coolshell.png" class="img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
+                                    <strong>酷壳</strong>
                                 </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
+                                <p class="overflowClip_2">左耳朵耗子的博客</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.yinwang.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.yinwang.org/">
+                            <div class="xe-comment-entry">
+                                <a class="xe-user-img">
+                                    <img src="../assets/images/logos/wangying.png" class="img-circle" width="40">
+                                </a>
+                                <div class="xe-comment">
+                                    <a href="#" class="xe-user-name overflowClip_1">
+                                        <strong>王垠博客</strong>
+                                    </a>
+                                    <p class="overflowClip_2">王垠的博客</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                            <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.ruanyifeng.com/home.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.ruanyifeng.com/home.html">
+                                <div class="xe-comment-entry">
+                                    <a class="xe-user-img">
+                                        <img src="../assets/images/logos/ryf.jpg" class="img-circle" width="40">
+                                    </a>
+                                    <div class="xe-comment">
+                                        <a href="#" class="xe-user-name overflowClip_1">
+                                            <strong>阮一峰博客</strong>
+                                        </a>
+                                        <p class="overflowClip_2">阮一峰的博客</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             </div>
             <br />
             <!--END 博客文章 -->
-
-
-            <!-- WIKI -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;color:red;" id="Wiki"></i>Wiki</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://androidniceties.tumblr.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://androidniceties.tumblr.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/AndroidNiceties.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Android Niceties</strong>
-                                </a>
-                                <p class="overflowClip_2">A collection of screenshots encompassing some of the most beautiful looking Android apps.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END WIKI -->
-
-
-
-
-    
-
-
+ 
 
             <!-- Main Footer -->
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
             <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
             <!-- Or class "fixed" to  always fix the footer to the end of page -->
-            <footer class="main-footer sticky footer-type-1 fixed">
+            <footer class="sticky footer-type-1 fixed" >
                     <div class="footer-inner">
-                        <div class="footer-text">
+                        <div class="footer-text" style="text-align: center;" >
                             &copy; 2019 - 2020
                             <a href="../cn/about.html"><strong>Searcher</strong></a> created  by <a href="https://github.com/aturX" target="_blank"><strong>AturX</strong></a>
                         </div>
