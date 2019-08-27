@@ -1,0 +1,29 @@
+// new ： 最近更新
+
+| ---  |
+| [学习CSS布局](https://zh.learnlayout.com/)  |
+| [数据科学社区](http://sofasofa.io/) |
+| [莫烦Python](https://morvanzhou.github.io/tutorials/)|
+| [W3Cschool](https://www.w3cschool.cn)|
+| [社区TokenLife](https://www.block233.com/)
+| [今日热榜](https://tophub.today/)
+
+webs({
+    "new": [
+        {
+            "name": "今日热榜",
+            "url": "https://tophub.today/",
+			"doc": "汇集各个资讯网站的热门排行榜信息"
+        },
+        {
+            "name": "猫",
+            "url": 1,
+			"doc": 1
+        },
+        {
+            "name": "猫",
+            "url": 1,
+			"doc": 1
+        }
+    ]
+})
