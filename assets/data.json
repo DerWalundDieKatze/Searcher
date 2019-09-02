@@ -5,6 +5,18 @@ webs({
             "url": "http://sofasofa.io/",
 			"img": "../assets/images/logos/data.png",
 			"doc": "关于数据科学的社区"
+        },
+        {
+            "name": "觅知网",
+            "url": "https://www.51miz.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "图片资源网站，可以找到合适的图片"
+        },
+        {
+            "name": "花瓣网",
+            "url": "https://huaban.com/",
+			"img": "../assets/images/logos/huabanwang.png",
+			"doc": "图片资源查找下载的网站"
         }
     ]
 })
