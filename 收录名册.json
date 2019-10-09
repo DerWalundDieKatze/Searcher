@@ -1,0 +1,52 @@
+webs({
+    "最近更新": [
+        {
+            "name": "数据科学社区",
+            "url": "http://sofasofa.io/",
+			"img": "../assets/images/logos/data.png",
+			"doc": "关于数据科学的社区"
+        },
+        {
+            "name": "觅知网",
+            "url": "https://www.51miz.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "图片资源网站，可以找到合适的图片"
+        },
+        {
+            "name": "花瓣网",
+            "url": "https://huaban.com/",
+			"img": "../assets/images/logos/huabanwang.png",
+			"doc": "图片资源查找下载的网站"
+        }
+    ],
+	"私人定制": [
+	{
+			"name": "Blog",
+            "url": "https://aturx.github.io/",
+			"img": "../assets/images/logos/data.png",
+			"doc": "关于数据科学的社区"
+	},
+	{
+			"name": "Website",
+            "url": "https://llssyy.wordpress.com/",
+			"img": "../assets/images/logos/data.png",
+			"doc": "关于数据科学的社区"
+	}
+	],
+	"实践学习": [{},{}],
+	"资源搜索": [{},{}],
+	"在线工具": [{},{}],
+	"资讯信息": [{},{}],
+	"设计师": [{},{}],
+	"后端程序员": [{},{}],
+	"前端程序员": [{},{}],
+	"测试工程师": [{},{}],
+	"运维工程师": [{},{}],
+	"区块链工程师": [{},{}],
+	"自由职业者": [{},{}],
+	"优质书籍": [{},{}],
+	"视频教程": [{},{}],
+	"在线教程": [{},{}],
+	"博客社区": [{},{}],
+})
+// new ： 最近更新
