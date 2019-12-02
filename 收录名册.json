@@ -1,52 +1,87 @@
 webs({
-    "最近更新": [
+    "搜索引擎": [
         {
-            "name": "数据科学社区",
-            "url": "http://sofasofa.io/",
+            "name": "秘迹搜索",
+            "url": "https://mijisou.com/",
 			"img": "../assets/images/logos/data.png",
-			"doc": "关于数据科学的社区"
+			"doc": "这是一个 不追踪 你的搜索引擎"
         },
         {
-            "name": "觅知网",
-            "url": "https://www.51miz.com/",
+            "name": "萌搜",
+            "url": "https://mengso.com/search?q=mengso",
 			"img": "../assets/images/logos/mzw.png",
-			"doc": "图片资源网站，可以找到合适的图片"
+			"doc": "萌搜-为小众而搜"
         },
         {
-            "name": "花瓣网",
-            "url": "https://huaban.com/",
+            "name": "mezw",
+            "url": "https://so.mezw.com/",
 			"img": "../assets/images/logos/huabanwang.png",
-			"doc": "图片资源查找下载的网站"
+			"doc": "支持屏蔽功能的搜索引擎"
+        },
+        {
+            "name": "鸠摩搜索",
+            "url": "https://www.jiumodiary.com/",
+			"img": "../assets/images/logos/data.png",
+			"doc": "支持屏蔽功能的搜索引擎"
+        },
+        {
+            "name": "史莱姆搜索",
+            "url": "http://www.slimego.cn/",
+			"img": "../assets/images/logos/huabanwang.png",
+			"doc": "学习资源最丰富的网盘搜索网站"
+        },
+        {
+            "name": "极客搜索",
+            "url": "https://s.geekbang.org/",
+			"img": "../assets/images/logos/huabanwang.png",
+			"doc": "轻量级科技内容搜索引擎"
+        },
+        {
+            "name": "iconfont",
+            "url": "https://www.iconfont.cn/",
+			"img": "../assets/images/logos/huabanwang.png",
+			"doc": "正版素材，图标内容搜索"
+        },
+        {
+            "name": "easyicon",
+            "url": "https://www.easyicon.net/",
+			"img": "../assets/images/logos/huabanwang.png",
+			"doc": "图标搜索引擎"
         }
     ],
-	"私人定制": [
+	"在线工具": [
 	{
-			"name": "Blog",
-            "url": "https://aturx.github.io/",
+			"name": "Tool",
+            "url": "https://tool.lu/",
 			"img": "../assets/images/logos/data.png",
-			"doc": "关于数据科学的社区"
+			"doc": "程序员在线工具"
 	},
 	{
-			"name": "Website",
-            "url": "https://llssyy.wordpress.com/",
+			"name": "在线工具",
+            "url": "http://www.nicetool.net/",
 			"img": "../assets/images/logos/data.png",
-			"doc": "关于数据科学的社区"
+			"doc": "用完即走，触手可及！"
 	}
 	],
-	"实践学习": [{},{}],
-	"资源搜索": [{},{}],
-	"在线工具": [{},{}],
-	"资讯信息": [{},{}],
-	"设计师": [{},{}],
-	"后端程序员": [{},{}],
-	"前端程序员": [{},{}],
-	"测试工程师": [{},{}],
-	"运维工程师": [{},{}],
-	"区块链工程师": [{},{}],
-	"自由职业者": [{},{}],
-	"优质书籍": [{},{}],
-	"视频教程": [{},{}],
-	"在线教程": [{},{}],
-	"博客社区": [{},{}],
+	"信息资讯": [{},{}],
+	"文章博客": [{
+			"name": "酷壳",
+            "url": "https://coolshell.cn/",
+			"img": "../assets/images/logos/data.png",
+			"doc": "陈浩博客"
+	},{
+			"name": "王垠博客",
+            "url": "http://www.yinwang.org/",
+			"img": "../assets/images/logos/data.png",
+			"doc": "王垠博客"
+	},{
+			"name": "阮一峰博客",
+            "url": "http://www.ruanyifeng.com/home.html",
+			"img": "../assets/images/logos/data.png",
+			"doc": "阮一峰博客"
+	}],
+	"获利实践": [{},{}],
+	"书籍教程": [{},{}],
+	"个人成长": [{},{}],
 })
-// new ： 最近更新
+ 
