@@ -1,0 +1,291 @@
+webs({
+    "find": [
+        {
+            "name": "虫部落搜索",
+            "url": "http://magnet.chongbuluo.com",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "虫部落搜索"
+        } ,
+        {
+            "name": "好站点导航",
+            "url": "https://www.hzd.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "好站点导航"
+        } ,
+        {
+            "name": "文档教程",
+            "url": "https://www.twle.cn/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "文档教程"
+        } ,
+        {
+            "name": "今日热榜",
+            "url": "https://tophub.today/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "今日热榜"
+        } ,
+        {
+            "name": "站搜搜",
+            "url": "https://www.zhansousou.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "站搜搜"
+        } ,
+        {
+            "name": "电影导航",
+            "url": "http://allyingshi.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "电影导航"
+        } ,
+        {
+            "name": "导航湾",
+            "url": "https://www.daohangwan.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "电影导航"
+        } ,
+        {
+            "name": "发明者",
+            "url": "https://www.fmz.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "发明者"
+        } ,
+        {
+            "name": "觅知网",
+            "url": "https://www.51miz.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "图片资源网站，可以找到合适的图片"
+        } 
+    ],
+    "blog":[
+        {
+            "name": "个人博客",
+            "url": "https://aturx.github.io/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "个人博客"
+        } ,
+        {
+            "name": "GitHub",
+            "url": "https://github.com/aturX",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "GitHub"
+        }  ,
+        {
+            "name": "Gitcoin",
+            "url": "https://gitcoin.co/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "Gitcoin"
+        }  ,
+        {
+            "name": "头条号",
+            "url": "https://mp.toutiao.com",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "头条号"
+        }  ,
+        {
+            "name": "电鸭社区",
+            "url": "https://eleduck.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "电鸭社区"
+        } ,
+        {
+            "name": "远程.work",
+            "url": "https://yuancheng.work/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "远程.work"
+        } ,
+        {
+            "name": "量化交易网",
+            "url": "http://www.vnpy.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "量化交易网"
+        } ,
+        {
+            "name": "量化交易社区",
+            "url": "http://www.vnpy.cn/comm/categories",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "量化交易社区"
+        } ,
+        {
+            "name": "数字游民",
+            "url": "https://jarodise.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "数字游民"
+        } 
+    ],
+    "info":[
+        {
+            "name": "科技行者",
+            "url": "https://technology.solidot.org/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "科技行者"
+        } ,
+        {
+            "name": "好奇心日报",
+            "url": "https://www.qdaily.com/tags/1615.html",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "好奇心日报"
+        } ,
+        {
+            "name": "爱范儿",
+            "url": "https://www.ifanr.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "爱范儿"
+        } ,
+        {
+            "name": "今日热榜",
+            "url": "https://tophub.today",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "今日热榜"
+        } ,
+        {
+            "name": "共识量化母基金",
+            "url": "http://www.cryptoquanter.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "共识量化母基金"
+        } ,
+        {
+            "name": "王垠博客",
+            "url": "http://www.yinwang.org/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "王垠博客"
+        } ,
+        {
+            "name": "阮一峰博客",
+            "url": "http://www.ruanyifeng.com",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "阮一峰博客"
+        } ,
+        {
+            "name": "酷客",
+            "url": "https://coolshell.cn/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "酷客"
+        }  ,
+        {
+            "name": "K神博客",
+            "url": "https://www.kennethreitz.org/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "K神博客"
+        }  ,
+        {
+            "name": "温国兵博客",
+            "url": "https://dbarobin.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "温国兵博客"
+        }  ,
+        {
+            "name": "D的博客",
+            "url": "https://88250.b3log.org/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "D的博客"
+        }  ,
+        {
+            "name": "刘未鹏博客",
+            "url": "http://mindhacks.cn/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "刘未鹏博客"
+        }  ,
+        {
+            "name": "Steve Blog",
+            "url": "https://www.stevepavlina.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "Steve Blog"
+        } 
+    ],
+    "tool":[
+        {
+            "name": "LeetCode",
+            "url": "https://leetcode-cn.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "LeetCode"
+        } ,
+        {
+            "name": "FreeCodeCamp",
+            "url": "https://www.freecodecamp.one",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "FreeCodeCamp"
+        } ,
+        {
+            "name": "编程练习网",
+            "url": "https://edabit.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "编程练习网"
+        } ,
+        {
+            "name": "速成课视频",
+            "url": "https://crashcourse.club/category/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "速成课视频"
+        } ,
+        {
+            "name": "日常工具",
+            "url": "https://www.toolnb.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "日常工具"
+        } ,
+        {
+            "name": "程序员工具",
+            "url": "https://www.toolfk.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "程序员工具"
+        } ,
+        {
+            "name": "拷贝兔",
+            "url": "https://cp.anyknew.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "拷贝兔"
+        } ,
+        {
+            "name": "奶牛传输",
+            "url": "https://cowtransfer.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "奶牛传输"
+        } 
+    ],
+    "link":[
+        {
+            "name": "区块链导航",
+            "url": "https://www.block123.com/zh-hans/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "区块链导航"
+        } ,
+        {
+            "name": "自由职业者导航",
+            "url": "https://www.topworker.cn/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "自由职业者导航"
+        } ,
+        {
+            "name": "UI设计",
+            "url": "http://ilxdh.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "UI设计"
+        } ,
+        {
+            "name": "创造狮",
+            "url": "http://chuangzaoshi.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "创造狮"
+        } ,
+        {
+            "name": "自媒体百宝箱",
+            "url": "http://wxbbx.jh1z.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "自媒体百宝箱"
+        } ,
+        {
+            "name": "远程工作",
+            "url": "https://github.com/greatghoul/remote-working",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "远程工作"
+        },
+        {
+            "name": "CTO码库",
+            "url": "https://www.ctolib.com/",
+			"img": "../assets/images/logos/mzw.png",
+			"doc": "CTO码库"
+        }
+        
+    ],
+
+})
+ 

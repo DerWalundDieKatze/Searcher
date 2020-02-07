@@ -1,10 +1,34 @@
 $(function(){
-    console.log($('#new-row').append(item0))
-    console.log($('#new-row').append(item1))
-    console.log($('#new-row').append(item2))
+    
+    for(var j=0; j < itemsFind.length; j++){
+        $('#find-row').append(itemsFind[j])
+      
+    }
+ 
+    for(var j=0; j < itemsBlog.length; j++){
+        $('#blog-row').append(itemsBlog[j])
+      
+    }
+    for(var j=0; j < itemsInfo.length; j++){
+        $('#info-row').append(itemsInfo[j])
+      
+    }
+    for(var j=0; j < itemsTool.length; j++){
+        $('#tool-row').append(itemsTool[j])
+      
+    }
+    for(var j=0; j < itemsLink.length; j++){
+        $('#link-row').append(itemsLink[j])
+      
+    }
+ 
 })
 
-
+var itemsFind = []
+var itemsBlog = []
+var itemsInfo = []
+var itemsTool = []
+var itemsLink = []
 
 // 创建单个对象模板
 itemTemplate = function(data){
@@ -26,25 +50,44 @@ itemTemplate = function(data){
         </div>
     `
     return item 
-
 }
 
 
 function webs(result){
     //回调函数名称(indexDemo)，需要与 src 中一致，而且要与文件地址中名一致。jsonp格式 名称({})
     //不然无法获取到对应的文件
-        console.log(result)     //打印 indexDemo.json 中的数据
-        var name = result.new[0].name
-        var url = result.new[0].url
-        var doc = result.new[0].doc
-        var img = result.new[0].img
-        console.log(result.new[0].name)
-        console.log(result.new[0].url)
-        console.log(result.new[0].doc)
-        console.log(result.new[0].img)
-            // 创建一条内容
-        item0 = itemTemplate(result.new[0])
-        item1 = itemTemplate(result.new[1])
-        item2 = itemTemplate(result.new[2])
-     
+    console.log(result)     //打印 indexDemo.json 中的数据
+
+
+    for(var i=0; i < result.find.length; i++){
+        // 资源寻找
+        item =  itemTemplate(result.find[i])
+        itemsFind[i] = item
+    }
+
+    for(var i=0; i < result.blog.length; i++){
+        // 社区论坛
+        item =  itemTemplate(result.blog[i])
+        itemsBlog[i] = item
+    }
+
+    for(var i=0; i < result.info.length; i++){
+        // 资讯信息
+        item =  itemTemplate(result.info[i])
+        itemsInfo[i] = item
+    }
+
+    for(var i=0; i < result.tool.length; i++){
+        // 工具实践
+        item =  itemTemplate(result.tool[i])
+        itemsTool[i] = item
+    }
+
+    for(var i=0; i < result.link.length; i++){
+        // 职业导航
+        item =  itemTemplate(result.link[i])
+        itemsLink[i] = item
+    }
+ 
+ 
 }

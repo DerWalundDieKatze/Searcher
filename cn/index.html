@@ -18,9 +18,11 @@
     <link rel="stylesheet" href="../assets/css/xenon-skins.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../assets/js/index.js"></script>
+   
 
-    <script type="text/javascript" src="../assets/data.json?callback=webs"></script>
+    <!-- 网站数据加载 -->
+    <script src="../assets/js/index.js"></script>
+    <script type="text/javascript" src="../data.json?callback=webs"></script>
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -80,114 +82,41 @@
                 </header>
                 <ul id="main-menu" class="main-menu">
                     <li>
-                        <a>
+                        <a href="#资源寻找">
                             <i class="linecons-lightbulb"></i>
-                            <span class="title">个人常用</span>
+                            <span class="title">资源寻找</span>
                         </a>
-                        <ul>
- 
-                            <li>
-                                <a href="#私人定制" class="smooth">
-                                    <span class="title">私人定制</span>
-                                    <span class="label label-pink pull-right hidden-collapsed">Hot</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#资源搜索" class="smooth">
-                                    <span class="title">资源搜索</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#在线工具" class="smooth">
-                                    <span class="title">在线工具</span>
-                                    <!-- <span class="label label-pink pull-right hidden-collapsed">Hot</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                    <a href="#资讯信息" class="smooth">
-                                        <span class="title">资讯信息</span>
-                                    </a>
-                                </li>
-                        </ul>
                     </li>
                     <li>
-                        <a href="#实践学习" class="smooth">
+                        <a href="#社区论坛" class="smooth">
                             <i class="linecons-user"></i>
-                            <span class="title">实践学习</span>
+                            <span class="title">社区论坛</span>
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#资讯信息" class="smooth">
                             <i class="linecons-thumbs-up"></i>
-                            <span class="title">IT领域</span>
+                            <span class="title">资讯信息</span>
                         </a>
-                        <ul>
+                        <!-- <ul>
                             <li>
                                 <a href="#设计师" class="smooth">
                                     <span class="title">设计师</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#后端程序员" class="smooth">
-                                    <span class="title">后端程序员</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#前端程序员" class="smooth">
-                                    <span class="title">前端程序员</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#测试工程师" class="smooth">
-                                    <span class="title">测试工程师</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#运维工程师" class="smooth">
-                                    <span class="title">运维工程师</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#区块链工程师" class="smooth">
-                                    <span class="title">区块链工程师</span>
-                                </a>
-                            </li>
-                            <li>
-                                    <a href="#自由职业者" class="smooth">
-                                        <span class="title">自由职业者</span>
-                                    </a>
-                                </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
-                        <a>
+                            <a href="#工具实践" class="smooth">
+                                <i class="linecons-pencil"></i>
+                                <span class="title">工具实践</span>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#职业导航" class="smooth">
                             <i class="linecons-pencil"></i>
-                            <span class="title">学习资源</span>
+                            <span class="title">职业导航</span>
                         </a>
-                        <ul>
-                            <li>
-                                <a href="#优质书籍" class="smooth">
-                                    <span class="title">优质书籍</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#视频教程" class="smooth">
-                                    <span class="title">视频教程</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#在线教程" class="smooth">
-                                    <span class="title">在线教程</span>
-                                </a>
-                            </li>
-                         
-                            <li>
-                                <a href="#博客文章" class="smooth">
-                                    <span class="title">博客文章</span>
-                                    <span class="label label-pink pull-right hidden-collapsed">Hot</span>
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                   
                     <div class="submit-tag">
@@ -210,8 +139,8 @@
                             <i class="fa-bars"></i>
                         </a>
                     </li>
-                    <li class="dropdown hover-line language-switcher">
-                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown">累计收录网站 <span style="color: red">16</span> 个</a>
+                    <li class="dropdown hover-line language-switcher" onclick="window.open('http://web4web.top', '_blank')">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown">链求君 - Linker</a>
                     </li>
                 </ul>
             </nav>
@@ -349,468 +278,48 @@
             </script>
 
 
-            <!-- 最近更新 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px; color:blue;" id="最近更新"></i>最近更新</h4>
-            <div class="row" id="new-row">
-                    <div class="col-sm-3">
-                            <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tophub.today/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://tophub.today/">
-                                <div class="xe-comment-entry">
-                                    <a class="xe-user-img">
-                                        <img src="../assets/images/logos/tops.png" class="img-circle" width="40">
-                                    </a>
-                                    <div class="xe-comment">
-                                        <a href="#" class="xe-user-name overflowClip_1">
-                                            <strong>今日热榜</strong>
-                                        </a>
-                                        <p class="overflowClip_2">汇集各种资讯网站的榜单内容</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px; color:blue;" id="资源寻找">
+            </i>资源寻找</h4>
+            <div class="row" id="find-row">
+                <!-- 资源寻找 -->
             </div>
             <br />
-            <!-- 个人常用 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px; color:red;" id="私人定制"></i>私人定制</h4>
-            <!-- 行 -->
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://aturx.github.io/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://aturx.github.io/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/aturx.jpg" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Blog</strong>
-                                </a>
-                                <p class="overflowClip_2">个人笔记、文章、代码整理</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://llssyy.wordpress.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://llssyy.wordpress.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/website.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>WebSite</strong>
-                                </a>
-                                <p class="overflowClip_2">网站记录存放一些内容，过渡阶段</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/aturX/lsy', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/aturX/lsy">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/growth.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>个人成长</strong>
-                                </a>
-                                <p class="overflowClip_2">目标、计划、行为、思想</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/aturX?tab=projects', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/aturX?tab=projects">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/zcool.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>TODO</strong>
-                                </a>
-                                <p class="overflowClip_2">今日待办事项，最近要完成的目标</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/aturX/lsy/projects/2', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/aturX/lsy/projects/2">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/liqi.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>目标计分板</strong>
-                                </a>
-                                <p class="overflowClip_2">量化目标，小步前进</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/aturX/100DD100', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/aturX/100DD100">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/code.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>Day-Code</strong>
-                                    </a>
-                                    <p class="overflowClip_2">每日Code，乐趣而已。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.block233.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.block233.com/">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/tokenlife.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>TokenLife</strong>
-                                    </a>
-                                    <p class="overflowClip_2">常逛的论坛</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bwh8.net/clientarea.php', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bwh8.net/clientarea.php">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/skitterphoto.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>VPS 搬瓦工</strong>
-                                    </a>
-                                    <p class="overflowClip_2">搬瓦工操作面板VPS</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px; color:red;" id="社区论坛">
+            </i>社区论坛</h4>
+            <div class="row" id="blog-row">
+                <!-- 社区论坛 -->
             </div>
             <br />
-            <!-- END 个人常用 -->
+         
 
-            <!-- 实践学习 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="实践学习"></i>实践学习</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://leetcode-cn.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://leetcode-cn.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/leetcode.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>LeetCode</strong>
-                                </a>
-                                <p class="overflowClip_2">算法编程网站</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+           
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="资讯信息">
+            </i>资讯信息</h4>
+            <div class="row" id="info-row">
+                <!-- 资讯信息 -->
             </div>
             <br />
-            <!--END 实践学习 -->
- 
+  
 
-
-            <!-- 资源搜索 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="资源搜索"></i>资源搜索</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.jiumodiary.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.jiumodiary.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/j.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>鸠摩搜书</strong>
-                                </a>
-                                <p class="overflowClip_2">搜书的搜索引擎</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.easyicon.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.easyicon.net/">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/ico.gif" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>EasyIcon</strong>
-                                    </a>
-                                    <p class="overflowClip_2">包含大量的精美图标，都是免费的</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://chuangzaoshi.com/index', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://chuangzaoshi.com/index">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/czs.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>创造狮导航</strong>
-                                    </a>
-                                    <p class="overflowClip_2">丰富高质量的网站导航</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+         
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="工具实践">
+            </i>工具实践</h4>
+            <div class="row" id="tool-row">
+                <!-- 工具实践 -->
+            </div>
+            <br />
             
-            <br />
-            <!--END 资源搜索 -->
-
-  
-
-            <!-- 后端程序员 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="后端程序员"></i>后端程序员</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.w3cschool.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.w3cschool.cn">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/w3c.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>W3Cschool</strong>
-                                    </a>
-                                    <p class="overflowClip_2">各种技术的API文档教程学习</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://springboot.fun/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://springboot.fun/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/springboot.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>SpringBoot中文索引</strong>
-                                </a>
-                                <p class="overflowClip_2">汇集多个Springboot的索引网站</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://hellogithub.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://hellogithub.com/">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/hellogithub.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>HelloGitHub</strong>
-                                    </a>
-                                    <p class="overflowClip_2">收集一些Github上有趣的项目</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://morvanzhou.github.io/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://morvanzhou.github.io/">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/pythonmofan.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>莫烦Python</strong>
-                                    </a>
-                                    <p class="overflowClip_2">Python基础、机器学习、数据处理相关教程</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+           
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="职业导航">
+            </i>职业导航</h4>
+            <div class="row" id="link-row">
+                 <!-- 职业导航 -->
             </div>
             <br />
-            <!--END 后端程序员 -->
-
-            <!-- 前端程序员 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="前端程序员"></i>前端程序员</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://jquery.cuishifeng.cn/index.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://jquery.cuishifeng.cn/index.html">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/jquery.jpg" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>jQuery API 文档</strong>
-                                </a>
-                                <p class="overflowClip_2">CSS jQuery API相关文档在线查看</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://zh.learnlayout.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://zh.learnlayout.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/css.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>CSS布局学习</strong>
-                                </a>
-                                <p class="overflowClip_2">CSS核心的布局方式学习</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 前端程序员 -->
-
-
-            <!-- 测试工程师 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="测试工程师"></i>测试工程师</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.testclass.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.testclass.net/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/testclass.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>测试教程网</strong>
-                                </a>
-                                <p class="overflowClip_2"> 较方便的测试网站 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 测试工程师 -->
- 
-
-
-            <!-- 区块链工程师 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="区块链工程师"></i>区块链工程师</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.block123.com/zh-hans/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.block123.com/zh-hans/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/blockchain.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>区块链门户</strong>
-                                </a>
-                                <p class="overflowClip_2">国内最大的区块链门户网站</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 区块链工程师 -->
-
-            
-            <!-- 自由职业者 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="自由职业者"></i>自由职业者</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.topworker.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.topworker.cn/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/topworker.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>跨境从业者</strong>
-                                </a>
-                                <p class="overflowClip_2">包含有自由职业相关的众多网站及文章</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 自由职业者 -->
-  
-  
-
-            <!-- 博客文章 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="博客文章"></i>博客文章</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://coolshell.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://coolshell.cn/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="../assets/images/logos/coolshell.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>酷壳</strong>
-                                </a>
-                                <p class="overflowClip_2">左耳朵耗子的博客</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                        <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.yinwang.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.yinwang.org/">
-                            <div class="xe-comment-entry">
-                                <a class="xe-user-img">
-                                    <img src="../assets/images/logos/wangying.png" class="img-circle" width="40">
-                                </a>
-                                <div class="xe-comment">
-                                    <a href="#" class="xe-user-name overflowClip_1">
-                                        <strong>王垠博客</strong>
-                                    </a>
-                                    <p class="overflowClip_2">王垠的博客</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                            <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.ruanyifeng.com/home.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.ruanyifeng.com/home.html">
-                                <div class="xe-comment-entry">
-                                    <a class="xe-user-img">
-                                        <img src="../assets/images/logos/ryf.jpg" class="img-circle" width="40">
-                                    </a>
-                                    <div class="xe-comment">
-                                        <a href="#" class="xe-user-name overflowClip_1">
-                                            <strong>阮一峰博客</strong>
-                                        </a>
-                                        <p class="overflowClip_2">阮一峰的博客</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            </div>
-            <br />
-            <!--END 博客文章 -->
- 
-
-            <!-- Main Footer -->
-            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
-            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
-            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+           
+   
             <footer class="sticky footer-type-1 fixed" >
                     <div class="footer-inner">
                         <div class="footer-text" style="text-align: center;" >
