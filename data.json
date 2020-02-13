@@ -15,7 +15,7 @@ webs({
         {
             "name": "文档教程",
             "url": "https://www.twle.cn/",
-			"img": "../assets/images/logos/mzw.png",
+			"img": "../assets/images/logos/reeoo.png",
 			"doc": "技术文档，开发教程，方便查询"
         } ,
         {
@@ -263,7 +263,7 @@ webs({
         {
             "name": "创造狮",
             "url": "http://chuangzaoshi.com/",
-			"img": "../assets/images/logos/mzw.png",
+			"img": "../assets/images/logos/sicangziti.png",
 			"doc": "创作者需要的导航网站"
         } ,
         {
