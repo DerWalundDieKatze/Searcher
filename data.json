@@ -43,14 +43,14 @@ webs({
 			"doc": "不同职业的垂直网站"
         } ,
         {
-            "name": "发明者",
+            "name": "量化发明者",
             "url": "https://www.fmz.com/",
 			"img": "../assets/images/logos/iosicongallery.png",
 			"doc": "量化交易平台，交易系统软件"
         } ,
         {
-            "name": "觅知网",
-            "url": "https://www.51miz.com/",
+            "name": "免版权图片",
+            "url": "https://www.logosc.cn/so/",
 			"img": "../assets/images/logos/mockupworld.png",
 			"doc": "图片资源网站，查询图片，下载图片"
         }  ,
@@ -59,7 +59,13 @@ webs({
             "url": "https://www.easyicon.net/",
 			"img": "../assets/images/logos/ico.gif",
 			"doc": "免费图标下载、图片下载"
-        } 
+        }   ,
+        {
+            "name": "去中心搜书",
+            "url": "https://book.tstrs.me/",
+			"img": "../assets/images/logos/Illustrator.png",
+			"doc": "分布式存储IPFS电子书搜索"
+        }
     ],
     "blog":[
         {
@@ -115,6 +121,30 @@ webs({
             "url": "https://jarodise.com/",
 			"img": "../assets/images/logos/cdc.png",
 			"doc": "数字游民的官网，自由的工作"
+        }  ,
+        {
+            "name": "云Team",
+            "url": "https://cloudteam.bilingo.com/",
+			"img": "../assets/images/logos/insight.png",
+			"doc": " 自由的工作， 远程协作团队"
+        }   ,
+        {
+            "name": "疯投圈",
+            "url": "https://crazy.capital/",
+			"img": "../assets/images/logos/invisionapp.png",
+			"doc": " 关于商业创投的博客"
+        }   ,
+        {
+            "name": "ForkIt播客",
+            "url": "https://forkit.fm/",
+			"img": "../assets/images/logos/isux.png",
+			"doc": "国内首个区块链博客 "
+        }   ,
+        {
+            "name": "V2EX",
+            "url": "https://www.v2ex.com/",
+			"img": "../assets/images/logos/Material_Design.png",
+			"doc": "开发者社区"
         } 
     ],
     "info":[
@@ -135,12 +165,6 @@ webs({
             "url": "https://www.ifanr.com/",
 			"img": "../assets/images/logos/Designmodo.png",
 			"doc": "科技数码资讯"
-        } ,
-        {
-            "name": "共识量化母基金",
-            "url": "http://www.cryptoquanter.com/",
-			"img": "../assets/images/logos/designmunk.png",
-			"doc": "量化交易比赛"
         } ,
         {
             "name": "王垠博客",
@@ -189,7 +213,19 @@ webs({
             "url": "https://www.stevepavlina.com/",
 			"img": "../assets/images/logos/trianglify.png",
 			"doc": "关于个人成长的优质文章"
-        } 
+        }   ,
+        {
+            "name": "区块链博主",
+            "url": "https://www.lijiaocn.com/",
+			"img": "../assets/images/logos/klart.png",
+			"doc": "关于区块链内容的博客"
+        }   ,
+        {
+            "name": "TerryTai博客",
+            "url": "https://terrytai.me/",
+			"img": "../assets/images/logos/lstore.png",
+			"doc": "区块链博客"
+        }   
     ],
     "tool":[
         {
@@ -283,6 +319,18 @@ webs({
             "url": "https://www.ctolib.com/",
 			"img": "../assets/images/logos/UrbanFonts.png",
 			"doc": "开源项目的对比分析"
+        },
+        {
+            "name": "以太坊区块链",
+            "url": "https://consensys.net/",
+			"img": "../assets/images/logos/UrbanFonts.png",
+			"doc": "以太坊区块链社区"
+        },
+        {
+            "name": "IPFS原力区",
+            "url": "https://ipfser.org/",
+			"img": "../assets/images/logos/UrbanFonts.png",
+			"doc": "关于IPFS的论坛社区"
         }
         
     ],
