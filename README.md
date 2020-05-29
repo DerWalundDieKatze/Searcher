@@ -6,7 +6,9 @@
 
 ## TODO
 
-- [ ] 内容简介编辑 图片Logo添加
+- [x] 2020-05-29 完成刻意练习 思维导图模板生成  [访问](http://lisiyi.top/pages/index.html) 
+
+- [x] 内容简介编辑 图片Logo添加
 
 - [x] 完全采用json 加载数据
 
