@@ -6,7 +6,7 @@ App = {
 
   init: async function() {
     // Load pets.
-    $.getJSON('../books.json', function(data) {
+    $.getJSON('https://raw.githubusercontent.com/aturX/Searcher/master/bookshop/books.json', function(data) {
       var petsRow = $('#petsRow');
       var petTemplate = $('#petTemplate');
 
@@ -54,7 +54,7 @@ App = {
     /*
      * Replace me...
      */
-    $.getJSON('Adoption.json', function(data) {
+    $.getJSON('https://raw.githubusercontent.com/aturX/Searcher/master/bookshop/Adoption.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with truffle-contract
       var AdoptionArtifact = data;
       App.contracts.Adoption = TruffleContract(AdoptionArtifact);
