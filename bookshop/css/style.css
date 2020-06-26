@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(45deg,#020031,#6d3353);
+}
+
+.container {
+    background: white;
+}
+
+.title {
+    font-family: 宋体;
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3063e4;
+    border-color: #3063e4;
+}
+.panel-body {
+    box-shadow: 0 14px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
