@@ -1,32 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh">
-
 <head>
-    <link rel="shortcut icon" href="./assets/images/favicon.png">
-    <meta charset="UTF-8">
-    <title>Lisiyi.top - 搜藏家</title>
-	<script>
-		var _hmt = _hmt || [];
-		(function() {
-		  var hm = document.createElement("script");
-		  hm.src = "https://hm.baidu.com/hm.js?5f536360cba2bd2691929ab1dfc08c55";
-		  var s = document.getElementsByTagName("script")[0]; 
-		  s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
-    <script>
-    if (navigator.appName == "Netscape") {
-        var language = navigator.language;
-    } else {
-        var language = navigator.browserLanguage;
-
-    }
-    document.location.href = "cn/index.html";
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="viggo" />
+    <meta name="author" content="aturx" />
     <title>搜藏家 - Searcher</title>
     <meta name="keywords" content="网站开发、程序员、开发工具、资源搜索、区块链、信息聚合、优质网站、专业工具分类">
     <meta name="description" content="Searcher -  汇聚优质网站，筛选高效工具，高质量的信息导航网站。 lisiyi.top">
@@ -42,18 +20,90 @@
     <meta name="twitter:title" content="Searcher -  汇聚优质网站，筛选高效工具，高质量的信息导航网站。 lisiyi.top">
     <meta name="twitter:description" content="网站开发、程序员、开发工具、资源搜索、区块链、信息聚合、优质网站、专业工具分类">
     <meta name="twitter:image" content="http://lisiyi.top/assets/images/webstack_banner_cn.png">
-</head>
-<body style="background-image: url(./assets/images/bk.jpg);">
+
+    <!-- 资源导入 -->
+    <link rel="stylesheet" href="./assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="./assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/css/style.css" media="screen" type="text/css" />
+    <script src="./assets/js/jquery-1.11.1.min.js"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
+    if (navigator.appName == "Netscape") {
+        var language = navigator.language;
+    } else {
+        var language = navigator.browserLanguage;
     }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-111463289-1');
+    // document.location.href = "search/index.html";
+    // document.location.href = "learn/index.html";
+    // document.location.href = "project/index.html";
     </script>
-</body>
+</head>
+<body>
 
+    <!-- 搜索框 -->
+    <section class="webdesigntuts-workshop">
+            <!-- <div class="search-box">	
+                <input type="search" placeholder="What are you looking for?">		    	
+                <button>Searcher</button>
+            </div> -->
+            <div id="search" class="s-search search-box">
+                    <div id="search-list" class="hide-type-list">
+                        <div class="search-group group-a s-current">
+                            <ul class="search-type">
+                                <li>
+                                        <input checked="" hidden="" type="radio" name="type" id="type-doge" value="https://www.dogedoge.com/results?q=" data-placeholder="不追踪，无广告">
+                                        <label for="type-doge"><span style="color:rgb(245, 46, 218)">Doge</span></label>
+                                </li>
+                                <li>
+                                    <input checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下(慎用)">
+                                    <label for="type-baidu"><span style="color:#2100E0">百度</span></label>
+                                </li>
+                                <li>
+                                    <input hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索">
+                                    <label for="type-google"><span style="color:#3B83FA">G</span><span style="color:#F3442C">o</span><span style="color:#FFC300">o</span><span style="color:#4696F8">g</span><span style="color:#2CAB4E">l</span><span style="color:#F54231">e</span></label>
+                                </li>
+                                <li>
+                                    <input hidden="" type="radio" name="type" id="type-github" value="https://github.com/search?q=" data-placeholder="搜项目、找代码">
+                                    <label for="type-github"><span style="color:rgb(218, 202, 186)">GitHub</span></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <form action="https://cn.bing.com/search?q=" method="get" target="_blank" id="super-search-fm">
+                        <input type="text" id="search-text" placeholder="微软Bing搜索" style="outline:0">
+                            <button type="submit"><i class="fa fa-search "></i></button>
+                    </form>
+                    <div class="set-check hidden-xs"><input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off"></div>
+                
+    <!-- 导航 -->
+
+    </div>
+    <div class="pages-container">
+            <a href="search/index.html">
+                <div class="page-logo-search">
+                        <span>搜索</span>
+                </div>
+            </a>
+     
+            <a href="learn/index.html">
+                 <div class="page-logo-learn">
+                        <span>学习</span>
+                 </div>
+            </a>
+            <a href="project/index.html">
+                 <div class="page-logo-project">
+                        <span>项目</span>
+                 </div>
+            </a>
+        </div>
+    <script type="text/javascript">var __encode ='seogo.me',_0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]=_0xb483[1]})(window);var __Ox1467e=["\x63\x68\x65\x63\x6B\x65\x64","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x74\x79\x70\x65\x22\x5D\x5B\x76\x61\x6C\x75\x65\x3D\x22","\x22\x5D","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x6C\x65\x6E\x67\x74\x68","\x73\x2D\x63\x75\x72\x72\x65\x6E\x74","\x72\x65\x6D\x6F\x76\x65","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x61\x64\x64","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65","\x73\x75\x70\x65\x72\x53\x65\x61\x72\x63\x68","\x73\x65\x74\x49\x74\x65\x6D","\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65","\x67\x65\x74\x49\x74\x65\x6D","\x74\x61\x72\x67\x65\x74","\x76\x61\x6C\x75\x65","\x74\x79\x70\x65","\x66\x6F\x63\x75\x73","\x6E\x65\x77\x57\x69\x6E\x64\x6F\x77","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","","\x61\x63\x74\x69\x6F\x6E","\x6F\x70\x65\x6E","\x68\x72\x65\x66","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x74\x79\x70\x65\x22\x5D\x3A\x63\x68\x65\x63\x6B\x65\x64","\x64\x61\x74\x61\x2D\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x5F\x62\x6C\x61\x6E\x6B","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x74\x79\x70\x65\x22\x5D","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x23\x73\x75\x70\x65\x72\x2D\x73\x65\x61\x72\x63\x68\x2D\x66\x6D","\x23\x73\x65\x61\x72\x63\x68\x2D\x74\x65\x78\x74","\x23\x73\x65\x74\x2D\x73\x65\x61\x72\x63\x68\x2D\x62\x6C\x61\x6E\x6B","\x2E\x73\x65\x61\x72\x63\x68\x2D\x67\x72\x6F\x75\x70","\x63\x68\x61\x6E\x67\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x73\x75\x62\x6D\x69\x74"];!function(){function _0x3bccx1(){_0x3bccx2(),_0x3bccx3(),_0x3bccx5(),_0x3bccx6()}function _0x3bccx2(){_0x3bccx17[__Ox1467e[0]]=_0x3bccxf()}function _0x3bccx3(){var _0x3bccx4=document[__Ox1467e[3]](__Ox1467e[1]+ _0x3bccxc()+ __Ox1467e[2]);_0x3bccx4&&(_0x3bccx4[__Ox1467e[0]]=!0,_0x3bccx7(_0x3bccx4))}function _0x3bccx5(){_0x3bccx12(_0x3bccx11())}function _0x3bccx6(){_0x3bccx13(_0x3bccx10())}function _0x3bccx7(_0x3bccx4){for(var _0x3bccx8=0;_0x3bccx8< _0x3bccx18[__Ox1467e[4]];_0x3bccx8++){_0x3bccx18[_0x3bccx8][__Ox1467e[7]][__Ox1467e[6]](__Ox1467e[5])};_0x3bccx4[__Ox1467e[9]][__Ox1467e[9]][__Ox1467e[9]][__Ox1467e[7]][__Ox1467e[8]](__Ox1467e[5])}function _0x3bccx9(_0x3bccx4,_0x3bccx8){window[__Ox1467e[12]][__Ox1467e[11]](__Ox1467e[10]+ _0x3bccx4,_0x3bccx8)}function _0x3bccxa(_0x3bccx4){return window[__Ox1467e[12]][__Ox1467e[13]](__Ox1467e[10]+ _0x3bccx4)}function _0x3bccxb(_0x3bccx4){_0x3bccx19=_0x3bccx4[__Ox1467e[14]],_0x3bccx12(_0x3bccx11()),_0x3bccx13(_0x3bccx4[__Ox1467e[14]][__Ox1467e[15]]),_0x3bccx9(__Ox1467e[16],_0x3bccx4[__Ox1467e[14]][__Ox1467e[15]]),_0x3bccx16[__Ox1467e[17]](),_0x3bccx7(_0x3bccx4[__Ox1467e[14]])}function _0x3bccxc(){var _0x3bccx8=_0x3bccxa(__Ox1467e[16]);return _0x3bccx8||_0x3bccx4[0][__Ox1467e[15]]}function _0x3bccxd(_0x3bccx4){_0x3bccx9(__Ox1467e[18],_0x3bccx4[__Ox1467e[14]][__Ox1467e[0]]?1:-1),_0x3bccx14(_0x3bccx4[__Ox1467e[14]][__Ox1467e[0]])}function _0x3bccxe(_0x3bccx4){return _0x3bccx4[__Ox1467e[19]](),__Ox1467e[20]==_0x3bccx16[__Ox1467e[15]]?(_0x3bccx16[__Ox1467e[17]](),!1):(_0x3bccx13(_0x3bccx10()+ _0x3bccx16[__Ox1467e[15]]),_0x3bccx14(_0x3bccxf()),_0x3bccxf()?window[__Ox1467e[22]](_0x3bccx8[__Ox1467e[21]],+ new Date):location[__Ox1467e[23]]=_0x3bccx8[__Ox1467e[21]],void(0))}function _0x3bccxf(){var _0x3bccx4=_0x3bccxa(__Ox1467e[18]);return _0x3bccx4?1==_0x3bccx4:!0}function _0x3bccx10(){return document[__Ox1467e[3]](__Ox1467e[24])[__Ox1467e[15]]}function _0x3bccx11(){return document[__Ox1467e[3]](__Ox1467e[24])[__Ox1467e[26]](__Ox1467e[25])}function _0x3bccx12(_0x3bccx4){_0x3bccx16[__Ox1467e[28]](__Ox1467e[27],_0x3bccx4)}function _0x3bccx13(_0x3bccx4){_0x3bccx8[__Ox1467e[21]]=_0x3bccx4}function _0x3bccx14(_0x3bccx4){_0x3bccx4?_0x3bccx8[__Ox1467e[14]]=__Ox1467e[29]:_0x3bccx8[__Ox1467e[30]](__Ox1467e[14])}var _0x3bccx15,_0x3bccx4=document[__Ox1467e[32]](__Ox1467e[31]),_0x3bccx8=document[__Ox1467e[3]](__Ox1467e[33]),_0x3bccx16=document[__Ox1467e[3]](__Ox1467e[34]),_0x3bccx17=document[__Ox1467e[3]](__Ox1467e[35]),_0x3bccx18=document[__Ox1467e[32]](__Ox1467e[36]),_0x3bccx19=_0x3bccx4[0];for(_0x3bccx1(),_0x3bccx15=0;_0x3bccx15< _0x3bccx4[__Ox1467e[4]];_0x3bccx15++){_0x3bccx4[_0x3bccx15][__Ox1467e[38]](__Ox1467e[37],_0x3bccxb)};_0x3bccx17[__Ox1467e[38]](__Ox1467e[37],_0x3bccxd),_0x3bccx8[__Ox1467e[38]](__Ox1467e[39],_0x3bccxe)}()
+    </script>
+
+
+    </section>
+        
+
+</body>
 </html>
