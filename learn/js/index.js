@@ -1,5 +1,4 @@
 $(function(){
-    alert("learn")
     for(var j=0; j < itemsFind.length; j++){
         $('#find-row').append(itemsFind[j])
       
