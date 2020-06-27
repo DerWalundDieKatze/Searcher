@@ -597,10 +597,10 @@ html,body {
 	}
 
 	.nav-logo {
-		padding: 27% !important;
-		font-size: 1.5rem;
-		height: 100px;
+		padding: 17% !important;
+		font-size: 1rem;
+		height: 70px;
 		line-height: 50px;
-		width: 100px;
+		width: 70px;
 	}
 }
