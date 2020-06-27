@@ -562,11 +562,11 @@ html,body {
 	}
 
 	.nav-logo {
-	    padding: 27% !important;
-		font-size: 1.5rem;
-		height: 100px;
+	    padding: 20% !important;
+		font-size: 1.2rem;
+		height: 80px;
 		line-height: 50px;
-		width: 100px;
+		width: 80px;
 
 	}
 }
