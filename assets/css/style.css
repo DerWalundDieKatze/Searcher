@@ -465,42 +465,6 @@ html,body {
 	display:none;	
 }
 
-@media screen and (max-width:767px){
-	#search{
-		margin:25px auto 15px
-	}
-	.pages-container{
-		margin:25px auto 15px
-	}
-	.search-type{
-		overflow:scroll
-	}
-	.search-list{
-		height:30px;
-		overflow-y:hidden;
-		overflow-x:scroll;
-		white-space:nowrap
-	}
-}
-
-@media screen and (max-width:768px){
-	#search{
-		margin:25px auto 15px
-	}
-	.pages-container{
-		margin:25px auto 15px
-	}
-	.search-type{
-		overflow:scroll
-	}
-	.search-list{
-		height:30px;
-		overflow-y:hidden;
-		overflow-x:scroll;
-		white-space:nowrap
-	}
-}
-
 .fa-2x{
 	padding-top: 15px;
 	font-size: 1.5em;
@@ -519,7 +483,7 @@ html,body {
 	display: inline-flex;
 	padding: 7%;
 	margin: 10px;
-	border-radius: 50%;
+	border-radius: 5%;
 }
 .pages-container a{
 	text-decoration:none;
@@ -542,15 +506,101 @@ html,body {
 	background: url(../images/learn-logo.png) no-repeat;
 	background-size:cover;
 	box-shadow:0px 3px 5px white;
-
-
 }
 
 .page-logo-project {
 	background: url(../images/project-logo.png) no-repeat;
 	background-size:cover;
 	box-shadow:2px 3px 5px white;
-
-
 }
  
+
+/* 自适应 */
+
+@media screen and (max-width:767px){
+	#search{
+		margin:25px auto 15px;
+		width: 85%;
+	}
+	.pages-container{
+		margin:25px auto 15px
+	}
+	.search-type{
+		overflow:scroll
+	}
+	.search-list{
+		height:30px;
+		overflow-y:hidden;
+		overflow-x:scroll;
+		white-space:nowrap
+	}
+	.pages-container {
+		width: 100px;
+		height: 50px;
+		max-width:767px;
+		margin:0 auto;
+	}
+
+	.webdesigntuts-workshop {
+		background: #151515;
+		height: 100%;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+	}
+
+	.webdesigntuts-workshop:before,
+	.webdesigntuts-workshop:after {
+	content: '';
+	display: block;	
+	height: 1px;
+	left: 50%;
+	margin: 0 0 0 -400px;
+	position: absolute;
+	width: 80%;
+	}
+
+	.nav-logo {
+	    padding: 27% !important;
+		font-size: 1.5rem;
+		height: 100px;
+		line-height: 50px;
+		width: 100px;
+
+	}
+}
+
+@media screen and (max-width:359px){
+	#search{
+		margin:20px auto 10px;
+		width: 85%;
+	}
+	
+	.pages-container{
+		margin:20px auto 10px
+	}
+	.search-type{
+		overflow:scroll
+	}
+	.search-list{
+		height:30px;
+		overflow-y:hidden;
+		overflow-x:scroll;
+		white-space:nowrap
+	}
+
+	.pages-container {
+		width: 100px;
+		height: 50px;
+		max-width:359px;
+		margin:0 auto;
+	}
+
+	.nav-logo {
+		padding: 27% !important;
+		font-size: 1.5rem;
+		height: 100px;
+		line-height: 50px;
+		width: 100px;
+	}
+}
