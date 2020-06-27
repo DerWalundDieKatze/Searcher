@@ -1,0 +1,75 @@
+webs({
+
+    // 前端项目
+    "one": [
+        {
+            "name": "HTML练习-01",
+            "url": "fjy/html/1/index.html",
+			"img": "../assets/images/logos/liqi.png",
+            "doc": "HelloHTML ！",
+            "author": "fjy",
+        },
+        {
+            "name": "CSS练习-01",
+            "url": "fjy/css/1/index.html",
+			"img": "../assets/images/logos/euxbaidu.png",
+            "doc": "CSS 背景色",
+            "author": "fjy",
+        },
+        // {
+        //     "name": "JavaScript练习",
+        //     "url": "https://www.hzd.com/",
+		// 	"img": "../assets/images/logos/euxbaidu.png",
+		// 	"doc": "区块链内容网站聚合"
+        // }
+    ],
+    // 后端项目
+    "two":[
+        {
+            "name": "个人博客",
+            "url": "http://web4web.top",
+			"img": "../assets/images/logos/linker.png",
+            "doc": "内容推荐，文章发布，项目展示",
+            "author": "lsy",
+        },
+        {
+            "name": "区块链实践网",
+            "url": "https://susuwataricoder.github.io/#/",
+			"img": "../assets/images/logos/aturx.jpg",
+            "doc": "Vue 开发，区块链实践网",
+            "author": "lsy",
+        },
+  
+    ],
+    // 区块链项目
+    "three":[
+        {
+            "name": "电子书商城DApp",
+            "url": "lsy/pages/bookshop/index.html",
+			"img": "../assets/images/logos/colorhunt.png",
+            "doc": "基于以太坊测试网的DApp商城",
+            "author": "lsy",
+        } ,
+ 
+    ],
+
+    // 成长项目
+    "four":[
+        {
+            "name": "刻意练习-思维导图",
+            "url": "lsy/pages/practice/index.html",
+			"img": "../assets/images/logos/leetcode.png",
+            "doc": "刻意练习过程生成思维导图",
+            "author": "lsy",
+        } ,
+        {
+            "name": "书单-（待开发）",
+            "url": "#",
+			"img": "../assets/images/logos/klart.png",
+            "doc": "记录自己的阅读书单",
+            "author": "lsy",
+        } ,     
+    ],
+
+})
+ 

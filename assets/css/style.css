@@ -395,7 +395,8 @@ html,body {
 }
 
 .s-type-list label:hover{
-	color:#000
+	color:#000;
+	color:rgb(182, 226, 252)
 }
 
 .s-type:hover .s-type-list{
