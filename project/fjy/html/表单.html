@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <from action="1.php" method="get">
+        <!--表单信息分组-->
+        <fieldset>
+            <legend>分组信息</legend>
+        </fieldset>
+        <!-- 文本输入框 -->
+        用户名:<input type="text" maxlength="6" readonly="readonly" name="username" value="value值">
+        <br>
+        <br>
+        <!-- 密码输入框 -->
+        密&nbsp;&nbsp;码:<input type="password">
+        <br>
+        <br>
+        <input type="radio" name="gender" checked="checked">男
+        <input type="radio" name="gender">女
+        <br><br>
+        <!-- 下拉列表 -->
+        省(市): <select>
+                    <option>河北</option>
+                    <option>山西</option>
+                    <option>山东</option>
+                    <option selected="selected">北京</option>
+                </select>
+        <!-- 下拉列表多选 -->
+        <select multiple="multiple">
+                    <option>河北</option>
+                    <option>山西</option>
+                    <option>山东</option>
+                    <option selected="selected">北京</option>
+                </select> 市(区): <select>
+                <optgroup label="北京市">
+                    <option>昌平区</option>
+                    <option>海淀区</option>
+                    <option>朝阳区</option>
+                    <option>大兴区</option>
+                </optgroup>
+                    <optgroup label="广东市">
+                    <option>昌平区</option>
+                    <option>海淀区</option>
+                    <option>朝阳区</option>
+                    <option>大兴区</option>
+                </optgroup>
+                </select>
+        <br><br>
+        <!-- 多选框 -->
+        <input type="checkbox" checked="checked">皮卡丘
+        <input type="checkbox" checked="checked">小浣熊
+        <input type="checkbox" checked="checked">老街口
+        <!-- 多行文本框 -->
+        <textarea cols="130" rows="10"></textarea><br><br>
+        <!-- 文件上传控件 -->
+        <input type="file">
+        <br><br>
+        <!-- 文件提交按钮 -->
+        <input type="submit">
+        <!-- 普通按钮 -->
+        <input type="button" value="普通按钮">
+        <!-- 图片按钮 -->
+        <input type="image" src="按钮.jpg">
+        <!-- 重置按钮 -->
+        <input type="reset">
+    </from>
+</body>
+
+
+</html>
